@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+dist/
+
+# env files — never commit real secrets
+.env
+.env.local
+.env.*.local
+.env.production
+
+# logs
+logs/
+*.log
+npm-debug.log*
+
+# debug
+.DS_Store
+
+# typescript
+*.tsbuildinfo
